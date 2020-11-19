@@ -1,0 +1,297 @@
+/****** css reset ******/
+*,div,p,ul{
+padding:0px;
+margin:0px;
+}
+body{
+font-family:"b yekan";
+background: #f1f1f1;
+direction: rtl;
+}
+a,li{
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+	color: #ecf0f1;
+	padding: 0px;
+	margin: 0;
+}
+li{
+	float: right;
+	list-style: none;
+}
+p{
+	color: #ecf0f1;
+}
+/*** allweb **/
+.allweb{
+	width: 100%;
+	height: auto;
+	float: right;
+}
+/** topmenu ***/
+.menu{
+	float: right;
+	width: 100%;
+	height: auto;
+	background: #34495e;
+}
+.menu ul li{
+	margin: 5px;
+}
+.menu ul li a{
+	float: right;
+	padding:10px;
+}
+.menu ul li a:hover{
+	background: #e74c3c;
+}
+/*** topads ***/
+.ads{
+	width: 100%;
+	height: 200px;
+	float: right;
+	background: #fff;
+}
+.ads ul{
+	float: right;
+	margin: 2px 12%;
+}
+.ads ul li{
+	margin: 10px 2%;
+}
+/**  **/
+.slider{
+	float: right;
+	width: 100%;
+	height: auto;
+}
+/** content-wrapp ***/
+.content-wrapp{
+	float: right;
+	width: 100%;
+	height: auto;
+}
+.content{
+	float: right;
+	width: 30%;
+	height: auto;
+	background: #34495e;
+	margin: 0 2.5% 10px 0;
+}
+.content-title{
+	float: right;
+	width: 100%;
+	height: auto;
+	background: #2c3e50;
+	text-align: center;
+}
+.content-title p{
+	padding: 15px 0;
+}
+.content-thumb{
+	float: right;
+	width: 100%;
+	height: 200px;
+	
+}
+.content-thumb img{
+	width: 100%;
+	height: 100%;
+}
+.content-txt{
+	float: right;
+	width: 96%;
+	height: auto;
+	margin: 0 2% 10px;
+	text-align: justify;
+	color: #ecf0f1;
+}
+/*** big-content ***/
+.big-content{
+	float: right;
+	width: 95%;
+	height: 250px;
+	background: #34495e;
+	margin: 10px 2.5%;
+}
+.big-content-thumb{
+	float: right;
+	width: 30%;
+	height: 250px;
+	background: #000;
+}
+.big-content-thumb img{
+	width: 100%;
+	height: 100%;
+}
+.big-content-title{
+	float: right;
+	width: 70%;
+	height: auto;
+	background: #2c3e50;
+}
+.big-content-title p{
+	float: right;
+	padding: 15px;
+}
+.big-content-txt{
+	float: right;
+	width: 68%;
+	height: 150px;
+	margin: 0 1%;
+}
+.big-content-txt p{
+	float: right;
+	text-align: justify;
+}
+.big-content-footer{
+	float: right;
+	width: 70%;
+	height: 46px;
+}
+.big-content-footer a{
+	float: left;
+	padding: 5px 10px;
+	background: #2c3e50;
+}
+.big-content-footer a:hover{
+	background:#3498db;
+}
+/*** footer **/
+.footer{
+	float: right;
+	width: 100%;
+	height: auto;
+	background: #7f8c8d;
+}
+.footermnu{
+	float: right;
+	width: 100%;
+	height: auto;
+}
+.footermnu ul li{
+	float: right;
+	padding: 10px;
+	margin: 5px;
+}
+.footermnu ul li:hover{
+	padding-right: 15px;
+}
+.socialpage{
+	float: right;
+	width: 100%;
+	height: auto;
+}
+.socialpage ul{
+	margin: 0 1%;
+}
+.socialpage ul li{
+	margin: 5px;
+}
+.socialpage ul li a{
+	float: right;
+	padding:5px 10px 2px;
+	font-size: 25px;	
+}
+.socialpage ul li{
+	background: #95a5a6;
+}
+.socialpage ul li:nth-child(1):hover{background: #2980b9;}
+.socialpage ul li:nth-child(2):hover{background: #e67e22;}
+.socialpage ul li:nth-child(3):hover{background: #3498db;}
+.socialpage ul li:nth-child(4):hover{background: #e74c3c;}
+.footer p{
+	float: right;
+	margin: 20px 1% 0;
+}
+/*** readmore ***/
+.rm-big-content{
+	float: right;
+	width: 95%;
+	min-height: 500px;
+	height: auto;
+	background: #34495e;
+	margin: 10px 2.5%;
+}
+.rm-big-content-thumb{
+	float: right;
+	width: 45%;
+	height: 480px;
+	background: #2c3e50;
+	margin: 10px 1% 10px 0;
+}
+.rm-big-content-thumb img{
+	float: right;
+	width: 98%;
+	height: 98%;
+	margin: 1%;
+}
+.rm-big-content-txt{
+	float: left;
+	width: 50%;
+	height: auto;
+	margin: 10px 0px 10px 2.5%;
+}
+.rm-big-content-txt a{
+	float: right;
+	width: 100%;
+	padding: 10px;
+	background: #2c3e50;
+}
+.rm-big-content-txt p{
+	float: right;
+	width: 98%;
+	height: auto;
+	margin: 0 1%;
+	text-align: justify;
+	font-size: 13px;
+}
+/*** loginbox ***/
+.loginbox{
+	width: 500px;
+	height: 350px;
+	background: #fff;
+	border: 3px solid #d8d8d8;
+	margin: 5% auto;
+}
+.loginbox p{
+	text-align: center;
+	color: #a6a8a8;
+	padding:10px;
+}
+.loginbox label{
+	float: right;
+	margin: 10px 2%;
+	color: #a6a8a8;
+}
+.loginbox input[type=text],[type=password]{
+	float: right;
+	width: 96%;
+	height: 40px;
+	margin: 5px 2%;
+	border:1px solid #eee;
+	font-size: 20px;
+	text-align: left;
+}
+.loginbox input[type=submit]{
+	float: right;
+	margin: 5px 2%;
+	border:1px solid #eee;
+	padding:10px 20px; 
+	font-family: "b yekan";
+	cursor: pointer;
+	background: #5858f9;
+	border: 1px solid #2525fa;
+	color: #fff;
+}
+.loginbox a{
+	float: right;
+	color: #4e4e53;
+	padding:10px 20px; 
+	background: #ededed;
+	margin: 5px;
+}
+.loginbox a:hover{
+	background: #4e4e53;
+	color: #ededed;
+}

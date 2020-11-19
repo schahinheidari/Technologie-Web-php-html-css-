@@ -1,0 +1,272 @@
+/****** css reset ******/
+*,div,p,ul{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background: #d2cece;
+    direction: rtl;
+}
+a,li{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    padding: 0px;
+    margin: 0;
+}
+li{
+    float: right;
+    list-style: none;
+}
+p{
+    color: #000000;
+}
+/*** allweb **/
+.allweb{
+    width: 100%;
+    height: auto;
+    float: right;
+}
+/** topmenu ***/
+.menu{
+    float: right;
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(left,#a445b2,#fa4299);
+}
+
+.nav-links .drop-menu{
+    background: -webkit-linear-gradient(left,#a445b2,#fa4299);
+    width: 110px;
+    top: 65px;
+    line-height: 100%;
+    padding-left: 0;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li:hover .drop-menu{
+    top: 50px;
+    opacity: 1;
+    padding-left: 0;
+    visibility: visible;
+    transition: all 0.4s ease;
+}
+.drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 0 0 15px;
+    font-weight: 400;
+    border-radius: 0px;
+}
+.menu ul li{
+    float: right;
+    margin: 5px;
+}
+.menu ul li a{
+    float: right;
+    padding:10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+.menu ul li a:hover{
+    background: #e74c3c;
+}
+.menu ul li1{
+    float: left;
+    margin: 5px;
+}
+.menu ul li b{
+    float: left;
+    padding-left:10px;
+    margin-left: 0px;
+}
+.ads{
+    width: 100%;
+    height: 200px;
+    float: right;
+    background: #d2cece;
+}
+.ads ul{
+    margin: 12px 20px;
+    float: left;
+}
+.ads ul li{
+    margin: 0;
+}
+.ads ul li a{
+    color: #000000;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    display: inline-block;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
+
+/**  **/
+.slider{
+    float: right;
+    width: 100%;
+    height: auto;
+}
+/** content-wrapp ***/
+.content-wrapp{
+    padding: 0 40px;
+    float: right;
+    width: 100%;
+    height: auto;
+}
+.content{
+    float: right;
+    max-width: 350px;
+    height: 250px;
+    transition: 0.4s;
+    background: -webkit-linear-gradient(left,#a445b2,#fa4299);
+    margin: 0 3.2% 10px 0;
+}
+@media screen and (max-width: 978px){
+    .content-wrapp{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .content{
+        max-width: 700px;
+        margin: 20px 0;
+    }
+}
+.content:hover{
+    height: 470px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.content-title{
+    float: right;
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(left,#a445b2,#fa4299);
+    text-align: center;
+}
+.content-title p{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.content-thumb{
+    float: right;
+    width: 100%;
+    height: 200px;
+
+}
+.content-thumb img{
+    width: 100%;
+    height: 100%;
+}
+.content-txt{
+    float: right;
+    padding: 10px 10px 0 0;
+    width: 96%;
+    height: auto;
+    margin-top: 5px;
+    text-align: left;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.1s;
+}
+.content:hover .content-txt{
+    opacity: 1;
+    visibility: visible;
+}
+.content-txt p{
+    text-align: center;
+}
+.btn{
+    text-align: left;
+    margin: 10px 0;
+}
+.btn a{
+    text-decoration: none;
+    background: -webkit-linear-gradient(left, #ce26e8, #171717);
+    color: lightgrey;
+    padding: 5px 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.btn a:hover{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(0.9);
+
+}
+.btn:hover a{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(0.9);
+
+
+}
+/*** big-content ***/
+.big-content{
+    float: right;
+    width: 95%;
+    height: 250px;
+    background: -webkit-linear-gradient(left,#a445b2,#fa4299);
+    margin: 10px 2.5%;
+}
+.big-content-thumb{
+    float: left;
+    width: 30%;
+    height: 250px;
+    background: #000;
+}
+.big-content-thumb img{
+    width: 100%;
+    height: 100%;
+}
+.big-content-title{
+    float: left;
+    width: 70%;
+    height: auto;
+    background: -webkit-linear-gradient(left,#a445b2,#fa4299);
+}
+.big-content-title p{
+    float: left;
+    padding: 15px;
+}
+.big-content-txt{
+    float: right;
+    width: 68%;
+    height: 150px;
+    margin: 0 1%;
+}
+.big-content-txt p{
+    float: left;
+    text-align: justify;
+}
+.big-content-footer{
+    float: right;
+    width: 70%;
+    height: 46px;
+}
+.big-content-footer a{
+    float: right;
+    padding: 5px 10px;
+    background: -webkit-linear-gradient(left, #ce26e8, #171717);
+}
+.big-content-footer a:hover{
+    background:#3498db;
+}
