@@ -1,12 +1,12 @@
 /****** css reset ******/
 *,div,p,ul{
-padding:0px;
-margin:0px;
+	padding:0px;
+	margin:0px;
 }
 body{
-font-family:"b yekan";
-background: #f1f1f1;
-direction: rtl;
+	background: #f1f1f1;
+	direction: ltr;
+	text-align: left;
 }
 a,li{
 	text-decoration: none;
@@ -16,7 +16,7 @@ a,li{
 	margin: 0;
 }
 li{
-	float: right;
+	float: left;
 	list-style: none;
 }
 p{
@@ -24,13 +24,13 @@ p{
 }
 /*** menu ***/
 .menu{
-	float: right;
+	float: left;
 	width: 100%;
 	height: auto;
 	background: #434242;
 }
 .menu ul li a{
-	float: right;
+	float: left;
 	padding: 10px 15px;
 }
 .menu ul li a:hover{
@@ -44,7 +44,7 @@ p{
 }
 .menu li ul{
 	position: absolute;
-	margin: 44px 0;
+	margin: 35px 0;
 	background: #434242;
 	display: none;
 }
@@ -54,27 +54,27 @@ p{
 }
 /** wellcomadmin **/
 .wellcomadmin{
-	float: right;
+	float: left;
 	width: 98%;
 	height: 50px;
 	background: #fff;
 	margin: 10px 1%;
 }
 .wellcomadmin p{
-	float: right;
+	float: left;
 	margin: 10px;
 	color: #939393;
 }
 /*** lastpostbox **/
 .lastpostbox{
-	float: right;
+	float: left;
 	width: 40%;
 	height: auto;
 	background: #fff;
 	margin: 10px 1%;
 }
 .lastpostTitle{
-	float: right;
+	float: left;
 	width: 100%;
 	height: 50px;
 	margin: 20px 0 0;
@@ -83,13 +83,13 @@ p{
 	width: 30%;
 	padding: 12px 0;
 	background: #414040;
-	float: right;
+	float: left;
 }
 .lastpostbox ul li{
 	float: none;
 }
 .lastpostbox ul li a{
-	float: right;
+	float: left;
 	color: #414040;
 	width: 94%;
 	background: #f0f0f0;
@@ -110,7 +110,7 @@ p{
 	margin:10px 1%;
 }
 .adminImg{
-	float: right;
+	float: left;
 	width: 35%;
 	height: 250px;
 	margin: 10px 1%;
@@ -120,7 +120,7 @@ p{
 	height: 100%;
 }
 .adminPropertis{
-	float: right;
+	float: left;
 	width: 60%;
 	height: 250px;
 	margin: 10px 1%;
@@ -134,40 +134,39 @@ p{
 }
 /** sendpostBox **/
 .sendpostBox{
-	float: right;
+	float: left;
 	width: 98%;
 	height: auto;
 	background: #fff;
 	margin: 10px 1%;
 }
 .sendpostBox label{
-	float: right;
+	float: left;
 	margin: 10px 2%;
 }
 .sendpostBox input[type=text]{
-	float: right;
+	float: left;
 	width: 96%;
 	height: 30px;
 	margin: 5px 2%;
 	border: 1px solid #dcdbdb;
 }
 .sendpostBox textarea{
-	float: right;
+	float: left;
 	width: 96%;
 	height: 250px;
 	margin: 5px 2%;
 	border: 1px solid #dcdbdb;
 }
 .sendpostBox input[type=submit]{
-	float: right;
+	float: left;
 	padding: 10px 20px;
 	margin: 5px 2% 5px 1%;
 	border: 1px solid #dcdbdb;
-	font-family: "b yekan";
 	cursor: pointer;
 }
 .uploadlink{
-	float: right;
+	float: left;
 	padding: 8px 20px;
 	background: #2e6ae4;
 	margin:5px 0;
@@ -175,14 +174,14 @@ p{
 }
 /** managepostBox **/
 .managepostBox{
-	float: right;
+	float: left;
 	width: 98%;
 	height: auto;
 	background: #fff;
-	margin: 10px 1%;	
+	margin: 10px 1%;
 }
 .managepostBox a{
-	float: right;
+	float: left;
 	color: #414040;
 	width: 50%;
 	background: #f0f0f0;
@@ -192,35 +191,34 @@ p{
 }
 /** settBox **/
 .settBox{
-	float: right;
+	float: left;
 	width: 98%;
 	height: auto;
 	background: #fff;
 	margin: 10px 1%;
 }
 .settBox label{
-	float: right;
+	float: left;
 	margin: 10px 2%;
 }
 .settBox input[type=text]{
-	float: right;
+	float: left;
 	width: 96%;
 	height: 30px;
 	border: 1px solid #dcdbdb;
 	margin: 5px 2%;
 }
 .settBox textarea{
-	float: right;
+	float: left;
 	width: 96%;
 	height: 150px;
 	border: 1px solid #dcdbdb;
 	margin: 5px 2%;
 }
 .settBox input[type=submit]{
-	float: right;
+	float: left;
 	padding: 5px 20px;
 	border: 1px solid #dcdbdb;
 	margin: 5px 2%;
-	font-family: "b yekan";
 	cursor: pointer;
 }

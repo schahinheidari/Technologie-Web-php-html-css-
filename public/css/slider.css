@@ -1,0 +1,169 @@
+/* slier section  */
+
+/*.slider{*/
+/*    position: relative;*/
+/*    font-size: 1em;*/
+/*}*/
+
+/*.slider .slides{*/
+
+/*}*/
+
+/*.slider .slides .item{*/
+/*    position: relative;*/
+/*    display: none;*/
+/*}*/
+
+/*.slider .slides .item img{*/
+/*    width: 100%;*/
+/*}*/
+
+/*.slider .slides .item span{*/
+/*    position: absolute;*/
+/*    color: #222;*/
+/*    left: 5%;*/
+/*    top: 1%;*/
+/*    font-size: 1.5em;*/
+/*}*/
+
+/*.slider .slides .active{*/
+/*    display: block;*/
+/*    animation-name: fadeIn ;*/
+/*    animation-duration: 2s;*/
+/*}*/
+
+/*.slider .buttons{*/
+/*    position: relative;*/
+/*    right: 20px;*/
+/*    bottom: 50px;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.slider .buttons i{*/
+/*    color: #ff0000;*/
+/*    float: right;*/
+/*    width: 2%;*/
+/*    padding: 10px 10px;*/
+/*    margin-right: 2px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.slider .buttons i:hover{*/
+/*    color:  rgba(255,0 , 0, 1);*/
+/*}*/
+/*@-webkit-keyframes fadeIn {*/
+/*    from {*/
+/*        opacity: 0;*/
+/*    }*/
+
+/*    to {*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
+
+/*@keyframes fadeIn {*/
+/*    from {*/
+/*        opacity: 0;*/
+/*    }*/
+
+/*    to {*/
+/*        opacity: 1;*/
+/*    }*/
+/*}*/
+
+/*.fadeIn {*/
+/*    -webkit-animation-name: fadeIn;*/
+/*    animation-name: fadeIn;*/
+/*}*/
+
+.slider{
+    background: #d2cece;
+    position: relative;
+    font-size: 1em;
+    margin: 10px auto;
+}
+
+.slider .slides{
+
+}
+
+.slider .slides .item{
+    position: relative;
+    display: none;
+    top: -25px !important;
+}
+
+.slider .slides .item img{
+    width: 100%;
+}
+
+.slider .slides .item span{
+    position: absolute;
+    color: #222;
+    left: 1%;
+    top: 2%;
+    font-size: 1em;
+}
+
+.slider .slides .active{
+    display: block;
+    animation-name: fadeIn ;
+    animation-duration: 2s;
+}
+
+.slider .buttons{
+    position: absolute;
+    bottom: 10%;
+    /*top: 150px !important;*/
+    right: 30px;
+    z-index: 1;
+}
+
+.slider .buttons i{
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.slider .buttons i:hover{
+    color:  rgba(255, 0, 0, .4);;
+}
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+
+*{
+    direction: rtl;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px ;
+    margin: 0px ;
+}
+
+a{
+    text-decoration: none ;
+}

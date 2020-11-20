@@ -23,7 +23,9 @@
                 </ul>
 
             </li>
-            <li><a href="#" ><img src="../../../public/images/phone.png" height="20" width="20">contact us</a></li>
+            <li><a href="#" ><img src="../../../public/images/phone.png" height="18" width="18">contact us</a></li>
+            <li><a href="#"><img src="../../../public/images/search-solid.svg">search</a></li>
+
         </ul>
         <ul>
             <li1><b href="#"><img src="../../../public/images/lego.png" height="50" width="120" alt="logo"></b></li1>

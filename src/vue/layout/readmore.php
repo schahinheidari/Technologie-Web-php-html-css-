@@ -4,7 +4,7 @@
 
     <!-- End of head section HTML codes -->
 
-	<title>تک مبل</title>
+	<title>readmore</title>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="../../../public/css/footer.css">
 </head>

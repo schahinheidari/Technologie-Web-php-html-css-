@@ -29,7 +29,7 @@
 				<input type="text" name="specialpost1title">
 				<label>Special post photo address-number 1</label>
 				<input type="text" name="specialpost1img">
-				<label>Special post text-number 3</label>
+				<label>Special post text-number 1</label>
 				<textarea name="specialpost1content"></textarea>
 				<input type="submit" name="specialpost1btn" value="send">
 			</form>

@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, Initial-scale=1.0">
     <link rel="stylesheet" href="../public/css/footer.css">
     <link rel="stylesheet" href="../public/css/header.css">
+    <link rel="stylesheet" href="../public/css/slider.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
 </head>
 <body>
 <div class="allweb">
@@ -19,8 +24,6 @@
                     <li><a href="">Drop menu 1</a></li>
                     <li><a href="">Drop menu 2</a></li>
                     <li><a href="">Drop menu 3</a></li>
-                    <li><a href="">Drop menu 4</a></li>
-
                 </ul>
 
             </li>
@@ -39,16 +42,40 @@
             <!--            <li><a href="#"><img src="../../../public/images/php.jpg"></a></li>-->
         </ul>
         <ul style="direction: rtl">
-            <li><img src="../public/images/account.png" width="20" height="20"><a href="login.php">login</a> | <a href="login.php">registration</a></li>
+            <li><img src="../public/images/account.png" width="20" height="20"><a href="../src/vue/layout/login.php">login</a> | <a href="../src/vue/layout/login.php">registration</a></li>
         </ul>
+
     </div><!-- ads -->
-
-    <div class="slider">
+<!--search-->
+    <label for="site-search">Search the site:</label>
+    <input type="search" id="site-search" name="q"
+           aria-label="Search through site content">
+    <button><img src="../public/images/search-solid.svg" width="15" height="15" alt="">Search</button>
         <!-- Insert to your webpage where you want to display the slider -->
+        <section class="slider">
+            <div class="slides">
+                <div class="item  active" id="slide1">
+                    <img src="../public/images/harry-potter.jpg" height="500" width="500" alt="" />
+                    <span>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling</span>
+                </div>
+                <div class="item " id="slide2">
+                    <img src="../public/images/batman.jpg" height="500" width="500" alt="" />
+                    <span>Batman is a fictional superhero appearing in American comic books published by DC Comics</span>
+                </div>
+                <div class="item " id="slide3">
+                    <img src="../public/images/spyderman.jpg" height="500" width="500" alt="" />
+                    <span>Spider-Man is a fictional superhero created by writer-editor Stan Lee and writer-artist Steve Ditko</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <i onclick="setSlide('slide1' , 1)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide2' , 2)" class="fas fa-circle"></i>
+                <i onclick="setSlide('slide3' , 3)" class="fas fa-circle"></i>
+            </div>
+        </section>
+    <script src="../public/js/main.js"></script>
 
-        <!-- End of body section HTML codes -->
-
-    </div><!-- slider -->
+    <!-- slider -->
 
     <div class="content-wrapp">
         <div class="content">
