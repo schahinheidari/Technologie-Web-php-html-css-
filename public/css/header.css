@@ -120,24 +120,26 @@ p{
 }
 
 /** search **/
-label {
-    text-align: center;
+.search{
+    vertical-align: -50px;
     direction: ltr;
-    display: block;
+    text-align: center;
+}
+.search label {
+    /*text-align: center;*/
+    direction: ltr;
+    display: inline-block;
     font: 1rem 'Fira Sans', serif;
+    padding-bottom: 30px;
+    z-index: 1;
 }
-input, label {
-    margin: .4rem 0;
-    text-align: center;
+.search input, label {
+    margin: .4rem 0 10px 0;
+    z-index: 1;
 }
-#site-search{
-    float: left;
+.search #site-search{
     right: 100px;
-    text-align: center;
-}
-button{
-    text-align: center;
-    display: flex;
+    z-index: 1;
 }
 /** content-wrapp ***/
 .content-wrapp{
